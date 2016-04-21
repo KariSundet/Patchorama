@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 84.0, 129.0, 1322.0, 707.0 ],
+		"rect" : [ 84.0, 129.0, 808.0, 707.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -607,7 +607,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 369.0, 45.0, 45.0 ],
+					"patching_rect" : [ 193.0, 458.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -621,11 +621,11 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 160.0, 197.0, 48.0, 136.0 ],
+					"patching_rect" : [ 193.0, 286.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[4]",
-							"parameter_shortname" : "live.gain~",
+							"parameter_shortname" : "Master",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
 							"parameter_mmax" : 6.0,
@@ -698,7 +698,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 160.0, 147.0, 128.0, 22.0 ],
+					"patching_rect" : [ 193.0, 236.0, 128.0, 22.0 ],
 					"style" : "",
 					"text" : "poly~ sampler-voice 4"
 				}
@@ -810,7 +810,7 @@
 			"obj-1.2::obj-7" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-1.3::obj-7" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-1.4::obj-7" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-7" : [ "live.gain~[4]", "live.gain~", 0 ]
+			"obj-7" : [ "live.gain~[4]", "Master", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
